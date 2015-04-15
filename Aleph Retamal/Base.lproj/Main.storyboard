@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Aleph_Retamal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FSZ-jc-BFC" customClass="CircleMenuButton" customModule="Aleph_Retamal" customModuleProvider="target">
+                                <rect key="frame" x="20" y="577" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="ZD2-qm-yGW"/>
+                                    <constraint firstAttribute="width" secondItem="FSZ-jc-BFC" secondAttribute="height" multiplier="1:1" id="rk3-sk-OlV"/>
+                                </constraints>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Huf-Mz-8bN" customClass="CircleMenuButton" customModule="Aleph_Retamal" customModuleProvider="target">
+                                <rect key="frame" x="152" y="577" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="DrQ-Lm-I0D"/>
+                                    <constraint firstAttribute="width" secondItem="Huf-Mz-8bN" secondAttribute="height" multiplier="1:1" id="uTD-di-FNl"/>
+                                </constraints>
+                                <state key="normal">
+                                    <color key="titleShadowColor" red="0.074509803921568626" green="0.60392156862745094" blue="0.53333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkl-Fq-nQt" customClass="CircleMenuButton" customModule="Aleph_Retamal" customModuleProvider="target">
+                                <rect key="frame" x="293" y="577" width="70" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="5El-51-sQw"/>
+                                    <constraint firstAttribute="width" secondItem="wkl-Fq-nQt" secondAttribute="height" multiplier="1:1" id="UzV-Wy-Lc9"/>
+                                </constraints>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="2"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fTy-Zi-XQI">
+                                <rect key="frame" x="131" y="305" width="112" height="57"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="48"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Huf-Mz-8bN" secondAttribute="bottom" constant="20" id="60T-6P-r5G"/>
+                            <constraint firstItem="wkl-Fq-nQt" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" constant="4" id="BO9-I6-4ad"/>
+                            <constraint firstAttribute="centerY" secondItem="fTy-Zi-XQI" secondAttribute="centerY" id="QIo-eK-jlD"/>
+                            <constraint firstAttribute="centerX" secondItem="fTy-Zi-XQI" secondAttribute="centerX" id="Rr7-CW-OCd"/>
+                            <constraint firstAttribute="centerX" secondItem="Huf-Mz-8bN" secondAttribute="centerX" id="TjX-Cu-bdk"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="FSZ-jc-BFC" secondAttribute="bottom" constant="20" id="UUq-BR-pbZ"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="wkl-Fq-nQt" secondAttribute="bottom" constant="20" id="cdW-aK-P1q"/>
+                            <constraint firstItem="FSZ-jc-BFC" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="4" id="eAi-PG-u4f"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="leftButton" destination="FSZ-jc-BFC" id="gGM-S2-RXV"/>
+                        <outlet property="mainLabel" destination="fTy-Zi-XQI" id="ui5-o7-rE3"/>
+                        <outlet property="middleButton" destination="Huf-Mz-8bN" id="qTG-eL-8lN"/>
+                        <outlet property="rightButton" destination="wkl-Fq-nQt" id="sEH-Mv-hcj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="338.5" y="103.5"/>
+        </scene>
+    </scenes>
+</document>
