@@ -63,4 +63,20 @@ struct Paths {
         let circle = UIBezierPath(ovalInRect: inFrame)
         return circle.CGPath
     }
+    
+    static func arrow(width:Double, height:Double, lw:Double, hh:Double) -> CGPath{
+        var arrowPath = UIBezierPath()
+        
+        arrowPath.moveToPoint(CGPoint(x: width / 2, y: 0))
+        arrowPath.addLineToPoint(CGPoint(x: (width - lw) / 2, y: 0))
+        arrowPath.addLineToPoint(CGPoint(x: (width - lw) / 2, y: height - hh))
+        arrowPath.addLineToPoint(CGPoint(x: 0, y: height - hh))
+        arrowPath.addLineToPoint(CGPoint(x: width / 2, y: height))
+        arrowPath.addLineToPoint(CGPoint(x: width, y: height - hh))
+        arrowPath.addLineToPoint(CGPoint(x: (width + lw) / 2, y: height - hh))
+        arrowPath.addLineToPoint(CGPoint(x: (width + lw) / 2, y: 0))
+        arrowPath.addLineToPoint(CGPoint(x: width / 2, y: 0))
+        
+        return arrowPath.CGPath
+    }
 }

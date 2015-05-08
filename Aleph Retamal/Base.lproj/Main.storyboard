@@ -1,15 +1,25 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7531" systemVersion="14C1510" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7702" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7701"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="fontawesome-webfont.ttf">
+            <string>FontAwesome</string>
+            <string>FontAwesome</string>
+            <string>FontAwesome</string>
+            <string>FontAwesome</string>
+            <string>FontAwesome</string>
+            <string>FontAwesome</string>
+            <string>FontAwesome</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="Aleph_Retamal" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="MainViewController" customModule="Aleph_Retamal" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
@@ -18,90 +28,564 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FSZ-jc-BFC" customClass="CircleMenuButton" customModule="Aleph_Retamal" customModuleProvider="target">
-                                <rect key="frame" x="20" y="577" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="ZD2-qm-yGW"/>
-                                    <constraint firstAttribute="width" secondItem="FSZ-jc-BFC" secondAttribute="height" multiplier="1:1" id="rk3-sk-OlV"/>
-                                </constraints>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
-                                        <real key="value" value="2"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
-                                        <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Huf-Mz-8bN" customClass="CircleMenuButton" customModule="Aleph_Retamal" customModuleProvider="target">
-                                <rect key="frame" x="152" y="577" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="DrQ-Lm-I0D"/>
-                                    <constraint firstAttribute="width" secondItem="Huf-Mz-8bN" secondAttribute="height" multiplier="1:1" id="uTD-di-FNl"/>
-                                </constraints>
-                                <state key="normal">
-                                    <color key="titleShadowColor" red="0.074509803921568626" green="0.60392156862745094" blue="0.53333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
-                                        <real key="value" value="2"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
-                                        <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wkl-Fq-nQt" customClass="CircleMenuButton" customModule="Aleph_Retamal" customModuleProvider="target">
-                                <rect key="frame" x="293" y="577" width="70" height="70"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="5El-51-sQw"/>
-                                    <constraint firstAttribute="width" secondItem="wkl-Fq-nQt" secondAttribute="height" multiplier="1:1" id="UzV-Wy-Lc9"/>
-                                </constraints>
-                                <state key="normal">
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
-                                        <real key="value" value="2"/>
-                                    </userDefinedRuntimeAttribute>
-                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
-                                        <color key="value" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fTy-Zi-XQI">
-                                <rect key="frame" x="131" y="305" width="112" height="57"/>
-                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="48"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fTy-Zi-XQI">
+                                <rect key="frame" x="187" y="334" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="43"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Touch the screen" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9AO-L7-PzW">
+                                <rect key="frame" x="113" y="426" width="148" height="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="0.18823529410000001" green="0.18823529410000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="Huf-Mz-8bN" secondAttribute="bottom" constant="20" id="60T-6P-r5G"/>
-                            <constraint firstItem="wkl-Fq-nQt" firstAttribute="trailing" secondItem="kh9-bI-dsS" secondAttribute="trailingMargin" constant="4" id="BO9-I6-4ad"/>
+                            <constraint firstAttribute="centerX" secondItem="9AO-L7-PzW" secondAttribute="centerX" id="3GX-yw-J7a"/>
                             <constraint firstAttribute="centerY" secondItem="fTy-Zi-XQI" secondAttribute="centerY" id="QIo-eK-jlD"/>
                             <constraint firstAttribute="centerX" secondItem="fTy-Zi-XQI" secondAttribute="centerX" id="Rr7-CW-OCd"/>
-                            <constraint firstAttribute="centerX" secondItem="Huf-Mz-8bN" secondAttribute="centerX" id="TjX-Cu-bdk"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="FSZ-jc-BFC" secondAttribute="bottom" constant="20" id="UUq-BR-pbZ"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="wkl-Fq-nQt" secondAttribute="bottom" constant="20" id="cdW-aK-P1q"/>
-                            <constraint firstItem="FSZ-jc-BFC" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="4" id="eAi-PG-u4f"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="9AO-L7-PzW" secondAttribute="bottom" constant="217" id="v8C-8R-69b"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="leftButton" destination="FSZ-jc-BFC" id="gGM-S2-RXV"/>
                         <outlet property="mainLabel" destination="fTy-Zi-XQI" id="ui5-o7-rE3"/>
-                        <outlet property="middleButton" destination="Huf-Mz-8bN" id="qTG-eL-8lN"/>
-                        <outlet property="rightButton" destination="wkl-Fq-nQt" id="sEH-Mv-hcj"/>
+                        <outlet property="touchLabel" destination="9AO-L7-PzW" id="Bl3-Lk-8i7"/>
+                        <segue destination="3dv-3U-cCJ" kind="show" identifier="showAboutMe" id="Sgp-QO-Hnh"/>
+                        <segue destination="Grp-10-Qdx" kind="show" identifier="showProjects" id="Jya-zc-ENl"/>
+                        <segue destination="Mcs-6N-EUk" kind="show" identifier="showBackground" id="4Wf-9A-vkk"/>
+                        <segue destination="cEu-r6-YKI" kind="show" identifier="showSkills" id="ex8-h8-P5N"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="338.5" y="103.5"/>
+            <point key="canvasLocation" x="47.5" y="103.5"/>
+        </scene>
+        <!--Background View Controller-->
+        <scene sceneID="7sI-bP-epy">
+            <objects>
+                <viewController id="Mcs-6N-EUk" customClass="BackgroundViewController" customModule="Aleph_Retamal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="N7c-lg-Tbb"/>
+                        <viewControllerLayoutGuide type="bottom" id="YmH-jr-dbB"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="FJx-Fi-YAd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JN0-EB-f71">
+                                <rect key="frame" x="133" y="279" width="110" height="110"/>
+                                <color key="backgroundColor" red="0.40784313729999999" green="0.72941176470000002" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="40"/>
+                                <state key="normal" title="">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="middleButtonCancel:" destination="Mcs-6N-EUk" eventType="touchCancel" id="Gs4-7k-rep"/>
+                                    <action selector="middleButtonTD:" destination="Mcs-6N-EUk" eventType="touchDown" id="vAD-GB-U5b"/>
+                                    <action selector="middleButtonTUI:" destination="Mcs-6N-EUk" eventType="touchUpInside" id="0VD-3q-ST1"/>
+                                    <action selector="middleButtonTUO:" destination="Mcs-6N-EUk" eventType="touchDragOutside" id="TWl-e8-gxZ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="R7N-26-bl3">
+                                <rect key="frame" x="20" y="20" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.18823529411764706" green="0.18823529411764706" blue="0.18823529411764706" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="clQ-kD-FOo"/>
+                                    <constraint firstAttribute="height" constant="40" id="o3w-9e-esk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="18"/>
+                                <state key="normal" title="">
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="backToView:" destination="Mcs-6N-EUk" eventType="touchUpInside" id="Cc4-Fl-r9U"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EDUCATION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZG-19-885">
+                                <rect key="frame" x="0.0" y="627" width="375" height="40"/>
+                                <color key="backgroundColor" red="0.18823529411764706" green="0.18823529411764706" blue="0.18823529411764706" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="O9K-GL-C9U"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="dZG-19-885" firstAttribute="leading" secondItem="FJx-Fi-YAd" secondAttribute="leadingMargin" constant="-16" id="4x1-OU-xqL"/>
+                            <constraint firstItem="R7N-26-bl3" firstAttribute="top" secondItem="FJx-Fi-YAd" secondAttribute="topMargin" constant="20" id="A8n-nn-NJx"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dZG-19-885" secondAttribute="trailing" constant="-16" id="QaL-W5-clX"/>
+                            <constraint firstItem="YmH-jr-dbB" firstAttribute="top" secondItem="dZG-19-885" secondAttribute="bottom" id="WgI-Uw-9w0"/>
+                            <constraint firstItem="R7N-26-bl3" firstAttribute="leading" secondItem="FJx-Fi-YAd" secondAttribute="leadingMargin" constant="4" id="jPt-8T-12Q"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="backButton" destination="R7N-26-bl3" id="4xG-l9-034"/>
+                        <outlet property="middleButton" destination="JN0-EB-f71" id="NhC-qn-Ckb"/>
+                        <outlet property="titleLabel" destination="dZG-19-885" id="G99-lX-EQX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DEk-Mq-vGg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-455.5" y="103.5"/>
+        </scene>
+        <!--About Me View Controller-->
+        <scene sceneID="PSN-IF-lPQ">
+            <objects>
+                <viewController id="3dv-3U-cCJ" customClass="AboutMeViewController" customModule="Aleph_Retamal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="C3m-U1-fWB"/>
+                        <viewControllerLayoutGuide type="bottom" id="nxG-ag-8J4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="k9s-Xk-tQE">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="auf-R7-gmn">
+                                <rect key="frame" x="20" y="20" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.18823529411764706" green="0.18823529411764706" blue="0.18823529411764706" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="7Hh-xx-aIa"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="9oF-oO-oQt"/>
+                                    <constraint firstAttribute="height" constant="40" id="ldZ-SF-14j"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="vUT-sZ-3na"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="18"/>
+                                <state key="normal" title="">
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="back:" destination="3dv-3U-cCJ" eventType="touchUpInside" id="9Y0-z5-xff"/>
+                                    <action selector="backToView:" destination="Mcs-6N-EUk" eventType="touchUpInside" id="N9r-05-cFN"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Touch the screen to continue" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="L0A-Wt-LFv">
+                                <rect key="frame" x="63" y="93" width="250" height="24"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="0.18823529411764706" green="0.18823529411764706" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="centerX" secondItem="L0A-Wt-LFv" secondAttribute="centerX" id="3ZP-ws-H9T"/>
+                            <constraint firstItem="auf-R7-gmn" firstAttribute="top" secondItem="k9s-Xk-tQE" secondAttribute="topMargin" constant="20" id="790-6g-1bY"/>
+                            <constraint firstItem="L0A-Wt-LFv" firstAttribute="top" secondItem="C3m-U1-fWB" secondAttribute="bottom" constant="73" id="HP7-ra-wBe"/>
+                            <constraint firstItem="auf-R7-gmn" firstAttribute="leading" secondItem="k9s-Xk-tQE" secondAttribute="leadingMargin" constant="4" id="Qu7-Je-56P"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="backButton" destination="auf-R7-gmn" id="UAe-gR-WMM"/>
+                        <outlet property="touchLabel" destination="L0A-Wt-LFv" id="kgb-sg-Wt4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Au3-ja-9W0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="531.5" y="103.5"/>
+        </scene>
+        <!--Projects View Controller-->
+        <scene sceneID="tzO-BT-PTM">
+            <objects>
+                <viewController id="Grp-10-Qdx" customClass="ProjectsViewController" customModule="Aleph_Retamal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="m2n-Hk-aIe"/>
+                        <viewControllerLayoutGuide type="bottom" id="zbR-3f-9AQ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="e05-Zg-LoK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sXP-Hm-TbU">
+                                <rect key="frame" x="199" y="20" width="113" height="41"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Projects">
+                                        <attributes>
+                                            <font key="NSFont" size="34" name="HelveticaNeue-Thin"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="26.449999999999999">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="26.450000762939453"/>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tiD-YN-B2L">
+                                <rect key="frame" x="16" y="81" width="343" height="26"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="22"/>
+                                <color key="textColor" red="0.18823529411764706" green="0.18823529411764706" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" bounces="NO" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aYz-sk-UmI">
+                                <rect key="frame" x="16" y="114" width="343" height="181"/>
+                                <string key="text">CopyCat is a simple mimic game that I made with other two friends. It's my first ever made app and my first app on appstore. It was the first challenge given at BEPiD and I wanted to put it on appstore to see what people would tell about it and how many hits I could get with a simple game, without marketing and this kind of stuff.</string>
+                                <color key="textColor" red="0.53333333333333333" green="0.53333333333333333" blue="0.53333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="17"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sNu-eb-30X">
+                                <rect key="frame" x="121" y="303" width="132" height="36"/>
+                                <color key="backgroundColor" red="0.18823529411764706" green="0.18823529411764706" blue="0.18823529411764706" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="132" id="50e-EM-4YD"/>
+                                    <constraint firstAttribute="height" constant="36" id="pvO-qh-c27"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
+                                <state key="normal" title="View Photos">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="seePhotos:" destination="Grp-10-Qdx" eventType="touchUpInside" id="zao-Gu-Oce"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WQY-XD-DSe">
+                                <rect key="frame" x="320" y="21" width="39" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="39" id="i1q-uC-o8Y"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="38"/>
+                                <color key="textColor" red="0.47058823529999999" green="0.32549019610000002" blue="0.41176470590000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Ea-T8-QlJ">
+                                <rect key="frame" x="20" y="20" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.18823529410000001" green="0.18823529410000001" blue="0.18823529410000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="IS6-N1-bog"/>
+                                    <constraint firstAttribute="width" constant="40" id="dQD-z5-ITD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="18"/>
+                                <state key="normal" title="">
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="back:" destination="Grp-10-Qdx" eventType="touchUpInside" id="CNp-CA-tWG"/>
+                                    <action selector="back:" destination="3dv-3U-cCJ" eventType="touchUpInside" id="yHt-Lb-H10"/>
+                                    <action selector="backToView:" destination="Mcs-6N-EUk" eventType="touchUpInside" id="lA4-NJ-ojG"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="0Ea-T8-QlJ" firstAttribute="leading" secondItem="e05-Zg-LoK" secondAttribute="leadingMargin" constant="4" id="29w-2m-6S8"/>
+                            <constraint firstItem="0Ea-T8-QlJ" firstAttribute="top" secondItem="e05-Zg-LoK" secondAttribute="topMargin" constant="20" id="8Uv-Do-uSR"/>
+                            <constraint firstItem="aYz-sk-UmI" firstAttribute="trailing" secondItem="e05-Zg-LoK" secondAttribute="trailingMargin" id="Nb2-Xc-raB"/>
+                            <constraint firstItem="sNu-eb-30X" firstAttribute="top" secondItem="aYz-sk-UmI" secondAttribute="bottom" constant="8" id="Q1k-Py-Rt5"/>
+                            <constraint firstItem="tiD-YN-B2L" firstAttribute="top" secondItem="sXP-Hm-TbU" secondAttribute="bottom" constant="20" id="UiB-9q-Bqd"/>
+                            <constraint firstItem="0Ea-T8-QlJ" firstAttribute="centerY" secondItem="WQY-XD-DSe" secondAttribute="centerY" id="aQc-Ou-cYz"/>
+                            <constraint firstItem="tiD-YN-B2L" firstAttribute="trailing" secondItem="e05-Zg-LoK" secondAttribute="trailingMargin" id="cY3-Hn-7gK"/>
+                            <constraint firstItem="WQY-XD-DSe" firstAttribute="leading" secondItem="sXP-Hm-TbU" secondAttribute="trailing" constant="8" id="dU6-id-5Ne"/>
+                            <constraint firstItem="0Ea-T8-QlJ" firstAttribute="centerY" secondItem="sXP-Hm-TbU" secondAttribute="centerY" id="fvj-Qh-2UH"/>
+                            <constraint firstItem="aYz-sk-UmI" firstAttribute="leading" secondItem="e05-Zg-LoK" secondAttribute="leadingMargin" id="hy5-8N-10g"/>
+                            <constraint firstItem="tiD-YN-B2L" firstAttribute="leading" secondItem="e05-Zg-LoK" secondAttribute="leadingMargin" id="m1l-YV-nkj"/>
+                            <constraint firstAttribute="centerX" secondItem="sNu-eb-30X" secondAttribute="centerX" id="pRx-ed-gd7"/>
+                            <constraint firstItem="aYz-sk-UmI" firstAttribute="top" secondItem="tiD-YN-B2L" secondAttribute="bottom" constant="7" id="qzC-cI-zOG"/>
+                            <constraint firstItem="WQY-XD-DSe" firstAttribute="trailing" secondItem="e05-Zg-LoK" secondAttribute="trailingMargin" id="wNA-wY-pDN"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="appDescriptionTextArea" destination="aYz-sk-UmI" id="VaQ-KA-eE3"/>
+                        <outlet property="appNameLabel" destination="tiD-YN-B2L" id="fxM-bA-jVC"/>
+                        <outlet property="backButton" destination="0Ea-T8-QlJ" id="lhQ-I1-tXs"/>
+                        <outlet property="seePhotosButton" destination="sNu-eb-30X" id="Svi-j8-pTy"/>
+                        <outlet property="titleLabel" destination="sXP-Hm-TbU" id="QHX-rR-Eav"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y4J-wn-Ayg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="47.5" y="1029.5"/>
+        </scene>
+        <!--Skills View Controller-->
+        <scene sceneID="tyh-90-Z6Y">
+            <objects>
+                <viewController id="cEu-r6-YKI" customClass="SkillsViewController" customModule="Aleph_Retamal" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="4ZY-bI-p4b"/>
+                        <viewControllerLayoutGuide type="bottom" id="I6w-9l-Dc1"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="h7z-og-9eR">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Swift" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aHM-yg-q1K">
+                                <rect key="frame" x="16" y="119" width="146" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.53333333333333333" green="0.53333333333333333" blue="0.53333333333333333" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view alpha="0.69999999999999973" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cSG-tz-77V" customClass="SkillBar" customModule="Aleph_Retamal" customModuleProvider="target">
+                                <rect key="frame" x="16" y="148" width="343" height="26"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                        <color key="value" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.5490196078431373" green="0.40784313725490196" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fillLevel">
+                                        <real key="value" value="0.80000000000000004"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Objective-C" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fx2-p7-Af8">
+                                <rect key="frame" x="16" y="182" width="146" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view alpha="0.69999998807907104" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="baC-OO-ugd" customClass="SkillBar" customModule="Aleph_Retamal" customModuleProvider="target">
+                                <rect key="frame" x="16" y="211" width="343" height="26"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                        <color key="value" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.5490196078431373" green="0.40784313725490196" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fillLevel">
+                                        <real key="value" value="0.69999999999999996"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UI Design" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vjO-YJ-5ie">
+                                <rect key="frame" x="16" y="245" width="146" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view alpha="0.69999998807907104" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ekk-px-jDt" customClass="SkillBar" customModule="Aleph_Retamal" customModuleProvider="target">
+                                <rect key="frame" x="16" y="274" width="343" height="26"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                        <color key="value" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.5490196078431373" green="0.40784313725490196" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fillLevel">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UX Design" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DfX-FA-QVr">
+                                <rect key="frame" x="16" y="308" width="146" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view alpha="0.69999998807907104" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="FW5-Fp-WJm" customClass="SkillBar" customModule="Aleph_Retamal" customModuleProvider="target">
+                                <rect key="frame" x="16" y="337" width="343" height="26"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                        <color key="value" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.5490196078431373" green="0.40784313725490196" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fillLevel">
+                                        <real key="value" value="0.45000000000000001"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Web Development" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVC-Gi-UlX">
+                                <rect key="frame" x="16" y="371" width="146" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view alpha="0.69999998807907104" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="uRH-ga-u3q" customClass="SkillBar" customModule="Aleph_Retamal" customModuleProvider="target">
+                                <rect key="frame" x="16" y="400" width="343" height="26"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                        <color key="value" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.5490196078431373" green="0.40784313725490196" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fillLevel">
+                                        <real key="value" value="0.75"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ruby" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hmc-kK-h4H">
+                                <rect key="frame" x="16" y="434" width="146" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view alpha="0.69999998807907104" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lp0-vW-S7e" customClass="SkillBar" customModule="Aleph_Retamal" customModuleProvider="target">
+                                <rect key="frame" x="16" y="463" width="343" height="26"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                        <color key="value" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.5490196078431373" green="0.40784313725490196" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fillLevel">
+                                        <real key="value" value="0.55000000000000004"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Responsive Design" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6BU-aC-xbs">
+                                <rect key="frame" x="16" y="497" width="146" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view alpha="0.69999998807907104" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Gqz-ZX-tjm" customClass="SkillBar" customModule="Aleph_Retamal" customModuleProvider="target">
+                                <rect key="frame" x="16" y="526" width="343" height="26"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                        <color key="value" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.5490196078431373" green="0.40784313725490196" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fillLevel">
+                                        <real key="value" value="0.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Autodidactcism" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UZm-Rz-bcj">
+                                <rect key="frame" x="16" y="560" width="146" height="21"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="17"/>
+                                <color key="textColor" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view alpha="0.69999998807907104" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="mCN-IF-agE" customClass="SkillBar" customModule="Aleph_Retamal" customModuleProvider="target">
+                                <rect key="frame" x="16" y="589" width="343" height="26"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="lineWidth">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="strokeColor">
+                                        <color key="value" red="0.53333333329999999" green="0.53333333329999999" blue="0.53333333329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="color" keyPath="fillColor">
+                                        <color key="value" red="0.5490196078431373" green="0.40784313725490196" blue="0.48627450980392156" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="fillLevel">
+                                        <real key="value" value="1"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZvJ-qS-aMk">
+                                <rect key="frame" x="20" y="20" width="40" height="40"/>
+                                <color key="backgroundColor" red="0.18823529410000001" green="0.18823529410000001" blue="0.18823529410000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="ADv-U0-AJh"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="40" id="LuW-HR-obr"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="40" id="PE6-br-TOt"/>
+                                    <constraint firstAttribute="height" constant="40" id="ZUe-6d-bBw"/>
+                                    <constraint firstAttribute="width" constant="40" id="f6U-aI-v7T"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="40" id="p0u-oL-ypk"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="18"/>
+                                <state key="normal" title="">
+                                    <color key="titleShadowColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="back:" destination="cEu-r6-YKI" eventType="touchUpInside" id="5n6-Zs-plT"/>
+                                    <action selector="back:" destination="3dv-3U-cCJ" eventType="touchUpInside" id="BAv-ya-2FJ"/>
+                                    <action selector="backToView:" destination="Mcs-6N-EUk" eventType="touchUpInside" id="bWE-Hl-1Vc"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tL7-Cm-znY">
+                                <rect key="frame" x="320" y="21" width="39" height="37"/>
+                                <fontDescription key="fontDescription" name="FontAwesome" family="FontAwesome" pointSize="36"/>
+                                <color key="textColor" red="0.47058823529411764" green="0.32549019607843138" blue="0.41176470588235292" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cna-p1-F6f">
+                                <rect key="frame" x="241" y="19" width="71" height="41"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Skills">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="34" name="HelveticaNeue-Thin"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" defaultTabInterval="26.449999999999999">
+                                                <tabStops>
+                                                    <textTab alignment="left" location="26.450000762939453"/>
+                                                </tabStops>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="ZvJ-qS-aMk" firstAttribute="top" secondItem="h7z-og-9eR" secondAttribute="topMargin" constant="20" id="OgC-QB-mCD"/>
+                            <constraint firstItem="ZvJ-qS-aMk" firstAttribute="leading" secondItem="h7z-og-9eR" secondAttribute="leadingMargin" constant="4" id="PZ6-RX-jLp"/>
+                            <constraint firstItem="Cna-p1-F6f" firstAttribute="top" secondItem="h7z-og-9eR" secondAttribute="topMargin" constant="19" id="Rsq-SV-vSI"/>
+                            <constraint firstItem="tL7-Cm-znY" firstAttribute="centerY" secondItem="Cna-p1-F6f" secondAttribute="centerY" id="bJ3-i7-8NP"/>
+                            <constraint firstItem="tL7-Cm-znY" firstAttribute="trailing" secondItem="h7z-og-9eR" secondAttribute="trailingMargin" id="eD3-QS-fg3"/>
+                            <constraint firstItem="tL7-Cm-znY" firstAttribute="leading" secondItem="Cna-p1-F6f" secondAttribute="trailing" constant="8" id="hmm-8R-Of7"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="backButton" destination="ZvJ-qS-aMk" id="FYp-yE-Ig2"/>
+                        <outlet property="didactBar" destination="mCN-IF-agE" id="Awa-kX-yxR"/>
+                        <outlet property="iconLabel" destination="tL7-Cm-znY" id="k8x-kY-Iim"/>
+                        <outlet property="objcBar" destination="baC-OO-ugd" id="0mU-Xd-dw7"/>
+                        <outlet property="rbBar" destination="lp0-vW-S7e" id="sAY-Tf-gTF"/>
+                        <outlet property="respBar" destination="Gqz-ZX-tjm" id="bWO-Pe-8CR"/>
+                        <outlet property="swiftBar" destination="cSG-tz-77V" id="MPQ-nm-vuS"/>
+                        <outlet property="titleLabel" destination="Cna-p1-F6f" id="5Uh-1n-HQP"/>
+                        <outlet property="uiBar" destination="ekk-px-jDt" id="zz2-Ju-x8B"/>
+                        <outlet property="uxBar" destination="FW5-Fp-WJm" id="A4w-9U-zW6"/>
+                        <outlet property="webBar" destination="uRH-ga-u3q" id="yzR-E8-qhr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cnY-9H-TBi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="515.5" y="849.5"/>
         </scene>
     </scenes>
 </document>

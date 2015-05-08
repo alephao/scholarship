@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		868398E71AE90DBC008F262A /* BackgroundSubject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868398E61AE90DBC008F262A /* BackgroundSubject.swift */; };
+		86A826681AE417B600D0D12E /* AboutMeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A826671AE417B600D0D12E /* AboutMeViewController.swift */; };
+		86A8266A1AE41C4700D0D12E /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A826691AE41C4700D0D12E /* TransitionManager.swift */; };
+		86A8266C1AE4610A00D0D12E /* BackgroundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86A8266B1AE4610A00D0D12E /* BackgroundViewController.swift */; };
 		86AB481C1ADDBA1B006C1405 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB481B1ADDBA1B006C1405 /* AppDelegate.swift */; };
-		86AB481E1ADDBA1B006C1405 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB481D1ADDBA1B006C1405 /* ViewController.swift */; };
+		86AB481E1ADDBA1B006C1405 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB481D1ADDBA1B006C1405 /* MainViewController.swift */; };
 		86AB48211ADDBA1B006C1405 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86AB481F1ADDBA1B006C1405 /* Main.storyboard */; };
 		86AB48231ADDBA1B006C1405 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86AB48221ADDBA1B006C1405 /* Images.xcassets */; };
 		86AB48321ADDBA1B006C1405 /* Aleph_RetamalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB48311ADDBA1B006C1405 /* Aleph_RetamalTests.swift */; };
 		86AB483C1ADDC6FE006C1405 /* Paths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB483B1ADDC6FE006C1405 /* Paths.swift */; };
 		86AB483E1ADDCAE1006C1405 /* CircleMenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB483D1ADDCAE1006C1405 /* CircleMenuButton.swift */; };
 		86AB48401ADDCBF9006C1405 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AB483F1ADDCBF9006C1405 /* Extensions.swift */; };
+		86B291051AE7EC7E0044E744 /* fontawesome-webfont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 86B291041AE7EC7E0044E744 /* fontawesome-webfont.ttf */; };
+		86B8D4711AEA42E5001A40FB /* MainButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B8D4701AEA42E5001A40FB /* MainButton.swift */; };
+		86CDB4A01AE0620C00268CD9 /* ProjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CDB49F1AE0620C00268CD9 /* ProjectsViewController.swift */; };
+		86EA909D1ADFC4FB00D9222B /* SkillsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EA909C1ADFC4FB00D9222B /* SkillsViewController.swift */; };
+		86EA909F1ADFC9DB00D9222B /* SkillBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EA909E1ADFC9DB00D9222B /* SkillBar.swift */; };
+		86F7CAB61AE2C3D2002A0D55 /* ImageView4Drag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F7CAB51AE2C3D2002A0D55 /* ImageView4Drag.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,10 +38,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		868398E61AE90DBC008F262A /* BackgroundSubject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundSubject.swift; sourceTree = "<group>"; };
+		86A826671AE417B600D0D12E /* AboutMeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutMeViewController.swift; sourceTree = "<group>"; };
+		86A826691AE41C4700D0D12E /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		86A8266B1AE4610A00D0D12E /* BackgroundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundViewController.swift; sourceTree = "<group>"; };
 		86AB48161ADDBA1B006C1405 /* Aleph Retamal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Aleph Retamal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		86AB481A1ADDBA1B006C1405 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86AB481B1ADDBA1B006C1405 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		86AB481D1ADDBA1B006C1405 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86AB481D1ADDBA1B006C1405 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		86AB48201ADDBA1B006C1405 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86AB48221ADDBA1B006C1405 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		86AB482B1ADDBA1B006C1405 /* Aleph RetamalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Aleph RetamalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -40,6 +54,12 @@
 		86AB483B1ADDC6FE006C1405 /* Paths.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Paths.swift; sourceTree = "<group>"; };
 		86AB483D1ADDCAE1006C1405 /* CircleMenuButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleMenuButton.swift; sourceTree = "<group>"; };
 		86AB483F1ADDCBF9006C1405 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		86B291041AE7EC7E0044E744 /* fontawesome-webfont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "fontawesome-webfont.ttf"; sourceTree = "<group>"; };
+		86B8D4701AEA42E5001A40FB /* MainButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainButton.swift; sourceTree = "<group>"; };
+		86CDB49F1AE0620C00268CD9 /* ProjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectsViewController.swift; sourceTree = "<group>"; };
+		86EA909C1ADFC4FB00D9222B /* SkillsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillsViewController.swift; sourceTree = "<group>"; };
+		86EA909E1ADFC9DB00D9222B /* SkillBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SkillBar.swift; sourceTree = "<group>"; };
+		86F7CAB51AE2C3D2002A0D55 /* ImageView4Drag.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageView4Drag.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,12 +102,22 @@
 			isa = PBXGroup;
 			children = (
 				86AB481B1ADDBA1B006C1405 /* AppDelegate.swift */,
-				86AB481D1ADDBA1B006C1405 /* ViewController.swift */,
-				86AB483D1ADDCAE1006C1405 /* CircleMenuButton.swift */,
 				86AB483B1ADDC6FE006C1405 /* Paths.swift */,
 				86AB483F1ADDCBF9006C1405 /* Extensions.swift */,
+				86EA909E1ADFC9DB00D9222B /* SkillBar.swift */,
+				86F7CAB51AE2C3D2002A0D55 /* ImageView4Drag.swift */,
+				86AB483D1ADDCAE1006C1405 /* CircleMenuButton.swift */,
 				86AB481F1ADDBA1B006C1405 /* Main.storyboard */,
+				868398E61AE90DBC008F262A /* BackgroundSubject.swift */,
+				86A8266B1AE4610A00D0D12E /* BackgroundViewController.swift */,
+				86A826671AE417B600D0D12E /* AboutMeViewController.swift */,
+				86AB481D1ADDBA1B006C1405 /* MainViewController.swift */,
+				86B8D4701AEA42E5001A40FB /* MainButton.swift */,
+				86A826691AE41C4700D0D12E /* TransitionManager.swift */,
+				86CDB49F1AE0620C00268CD9 /* ProjectsViewController.swift */,
+				86EA909C1ADFC4FB00D9222B /* SkillsViewController.swift */,
 				86AB48221ADDBA1B006C1405 /* Images.xcassets */,
+				86B291041AE7EC7E0044E744 /* fontawesome-webfont.ttf */,
 				86AB48191ADDBA1B006C1405 /* Supporting Files */,
 			);
 			path = "Aleph Retamal";
@@ -198,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86B291051AE7EC7E0044E744 /* fontawesome-webfont.ttf in Resources */,
 				86AB48211ADDBA1B006C1405 /* Main.storyboard in Resources */,
 				86AB48231ADDBA1B006C1405 /* Images.xcassets in Resources */,
 			);
@@ -217,11 +248,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86A8266C1AE4610A00D0D12E /* BackgroundViewController.swift in Sources */,
+				86CDB4A01AE0620C00268CD9 /* ProjectsViewController.swift in Sources */,
+				86B8D4711AEA42E5001A40FB /* MainButton.swift in Sources */,
 				86AB48401ADDCBF9006C1405 /* Extensions.swift in Sources */,
 				86AB483E1ADDCAE1006C1405 /* CircleMenuButton.swift in Sources */,
 				86AB483C1ADDC6FE006C1405 /* Paths.swift in Sources */,
-				86AB481E1ADDBA1B006C1405 /* ViewController.swift in Sources */,
+				868398E71AE90DBC008F262A /* BackgroundSubject.swift in Sources */,
+				86AB481E1ADDBA1B006C1405 /* MainViewController.swift in Sources */,
+				86EA909D1ADFC4FB00D9222B /* SkillsViewController.swift in Sources */,
+				86A826681AE417B600D0D12E /* AboutMeViewController.swift in Sources */,
+				86EA909F1ADFC9DB00D9222B /* SkillBar.swift in Sources */,
 				86AB481C1ADDBA1B006C1405 /* AppDelegate.swift in Sources */,
+				86F7CAB61AE2C3D2002A0D55 /* ImageView4Drag.swift in Sources */,
+				86A8266A1AE41C4700D0D12E /* TransitionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +449,7 @@
 				86AB48371ADDBA1B006C1405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86AB48381ADDBA1B006C1405 /* Build configuration list for PBXNativeTarget "Aleph RetamalTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +458,7 @@
 				86AB483A1ADDBA1B006C1405 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
