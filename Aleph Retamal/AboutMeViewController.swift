@@ -355,7 +355,7 @@ class AboutMeViewController: UIViewController {
         }
     }
     
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         if !animating {
             switch self.step {
 //            case 1:

@@ -13,7 +13,7 @@ class MainButton: UIButton {
     var leftLabel: UILabel!
     
     override func drawRect(rect: CGRect) {
-        var bg = CAShapeLayer()
+        let bg = CAShapeLayer()
         bg.bounds = self.bounds
         bg.borderWidth = 1
         bg.borderColor = UIColor(hex: "e0e0e0").CGColor
@@ -40,7 +40,7 @@ class MainButton: UIButton {
         self.addSubview(leftLabel)
     }
 
-    required init(coder aDecoder: NSCoder) {
+    required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     

@@ -233,7 +233,7 @@ class MainViewController: UIViewController {
         blinkTimer = NSTimer.scheduledTimerWithTimeInterval(2, target: self, selector: Selector("blinkObj"), userInfo: nil, repeats: true)
     }
     
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         if step == 0 {
             shakeTimer.invalidate()
             blinkTimer.invalidate()
@@ -425,7 +425,7 @@ class MainViewController: UIViewController {
                                     
                                     let font:UIFont = UIFont(name: "HelveticaNeue-Light", size: 20)!
                                     
-                                    let btnAbout:MainButton = MainButton.buttonWithType(UIButtonType.Custom) as! MainButton
+                                    let btnAbout:MainButton = MainButton(type: UIButtonType.Custom)
                                     btnAbout.bounds = CGRect(x: 0, y: 0, width: width, height: height)
                                     btnAbout.center = CGPoint(x: self.view.center.x, y: offsetTop + height / 2)
                                     btnAbout.leftLabel.text = ""
@@ -436,7 +436,7 @@ class MainViewController: UIViewController {
                                     self.view.addSubview(btnAbout)
                                     btnAbout.transform = CGAffineTransformMakeTranslation(400, 0)
                                     
-                                    let btnSkills:MainButton = MainButton.buttonWithType(UIButtonType.Custom) as! MainButton
+                                    let btnSkills:MainButton = MainButton(type: UIButtonType.Custom)
                                     btnSkills.bounds = CGRect(x: 0, y: 0, width: width, height: height)
                                     btnSkills.center = CGPoint(x: self.view.center.x, y: offsetTop + height * 3 / 2 - 1)
                                     btnSkills.leftLabel.text = ""
@@ -447,7 +447,7 @@ class MainViewController: UIViewController {
                                     self.view.addSubview(btnSkills)
                                     btnSkills.transform = CGAffineTransformMakeTranslation(-300, 0)
                                     
-                                    let btnBackground:MainButton = MainButton.buttonWithType(UIButtonType.Custom) as! MainButton
+                                    let btnBackground:MainButton = MainButton(type: UIButtonType.Custom)
                                     btnBackground.bounds = CGRect(x: 0, y: 0, width: width, height: height)
                                     btnBackground.center = CGPoint(x: self.view.center.x, y:  offsetTop + height * 5 / 2 - 2)
                                     btnBackground.leftLabel.text = ""
@@ -458,7 +458,7 @@ class MainViewController: UIViewController {
                                     self.view.addSubview(btnBackground)
                                     btnBackground.transform = CGAffineTransformMakeTranslation(400, 0)
 //                                    
-                                    let btnProjects:MainButton = MainButton.buttonWithType(UIButtonType.Custom) as! MainButton
+                                    let btnProjects:MainButton = MainButton(type: UIButtonType.Custom)
                                     btnProjects.bounds = CGRect(x: 0, y: 0, width: width, height: height)
                                     btnProjects.center = CGPoint(x: self.view.center.x, y:  offsetTop + height * 7 / 2 - 3)
                                     btnProjects.leftLabel.text = ""
@@ -550,7 +550,7 @@ class MainViewController: UIViewController {
         
         if segue.identifier == "showSkills" {
             transitionManager.leftSide = false
-            let toViewController = segue.destinationViewController as! UIViewController
+            let toViewController = segue.destinationViewController 
             toViewController.transitioningDelegate = self.transitionManager
         }
 
